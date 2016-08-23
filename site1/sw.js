@@ -1,6 +1,6 @@
 var CACHE_NAME = 'ourcache';
 
-var urlsToCache = ['ServiceWorkerTest/site1/']
+var urlsToCache = ['/']
 
 self.addEventListener('install', function(event) {
   console.log('Service worker is installing')
